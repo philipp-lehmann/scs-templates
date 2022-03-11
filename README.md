@@ -1,6 +1,6 @@
-# Maizzle Netlify Identity Starter
+# SCS Mail Templates
 
-HTML email templates for [Netlify Identity](https://www.netlify.com/docs/identity/), built with [Tailwind CSS](https://tailwindcss.com/) in [Maizzle](https://maizzle.com).
+HTML email templates for [SCS](https://www.scs.com/), built with [Tailwind CSS](https://tailwindcss.com/) in [Maizzle](https://maizzle.com).
 
 ## Installation
 
