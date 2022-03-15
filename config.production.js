@@ -22,4 +22,5 @@ module.exports = {
   },
   prettify: true,
   removeUnusedCSS: true,
+  baseImageURL: 'http://localhost:3000/'
 }

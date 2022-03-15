@@ -108,6 +108,7 @@ module.exports = {
         base: '17px',
         lg: '22px',
         xl: '34px',
+        xxl: '96px',
       },
       inset: theme => ({
         ...theme('spacing'),
