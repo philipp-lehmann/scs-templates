@@ -8,24 +8,18 @@
 | specify the options that are changing.
 |
 */
-
+/** @type {import('@maizzle/framework').Config} */
 export default {
   build: {
-    templates: {
-      destination: {
-        path: 'dist',
-      },
+    output: {
+      path: 'build_production',
     },
   },
   css: {
     inline: true,
-  },
-  outlook: {
-    tag: 'mso',
+    purge: true,
+    shorthand: true,
   },
   prettify: true,
-  css: {
-    purge: {}
-  }
-  baseImageURL: 'http://scs.redefine.studio/'
 }
+
