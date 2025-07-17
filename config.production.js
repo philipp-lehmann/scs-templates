@@ -9,7 +9,7 @@
 |
 */
 
-module.exports = {
+export default {
   build: {
     templates: {
       destination: {
@@ -17,10 +17,15 @@ module.exports = {
       },
     },
   },
-  inlineCSS: {
-    mergeLonghand: true,
+  css: {
+    inline: true,
+  },
+  outlook: {
+    tag: 'mso',
   },
   prettify: true,
-  removeUnusedCSS: true,
+  css: {
+    purge: {}
+  }
   baseImageURL: 'http://scs.redefine.studio/'
 }

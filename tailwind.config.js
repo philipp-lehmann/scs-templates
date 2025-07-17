@@ -1,4 +1,13 @@
 module.exports = {
+  presets: [
+    require('tailwindcss-preset-email'),
+  ],
+  content: [
+    './src/components/**/*.html',
+    './src/templates/**/*.html',
+    './src/layouts/**/*.html',
+  ],
+
   mode: 'jit',
   theme: {
     screens: {
@@ -108,7 +117,7 @@ module.exports = {
         base: '17px',
         lg: '22px',
         xl: '34px',
-        xxl: '96px',
+        xxl: '64px',
       },
       inset: theme => ({
         ...theme('spacing'),

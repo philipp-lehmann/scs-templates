@@ -25,9 +25,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?{{{ page.googleFonts }}}&display=swap" rel="stylesheet" media="screen">
   </if>
-  <if condition="page.css">
-    <style>{{{ page.css }}}</style>
-  </if>
+  <style>
+    @tailwind components;
+    @tailwind utilities;
+  </style>
   <block name="head"></block>
 </head>
 <body class="{{ page.bodyClass }}">
@@ -37,7 +38,7 @@
       &#160;&#847; &#847; &#847; &#847; &#847; </div>
   </if>
   <div role="article" aria-roledescription="email" aria-label="{{{ page.title || '' }}}" lang="{{ page.language || 'en' }}">
-    <block name="template"></block>
+    <yield />
   </div>
 </body>
 </html>

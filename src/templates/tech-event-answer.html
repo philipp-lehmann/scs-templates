@@ -1,0 +1,101 @@
+---
+title: Tech-Event
+description: Cyber Resilience und Data Act
+eventsURL: https://www.scs.ch/events/
+eventDetailURL: https://www.scs.ch/event/tech-event-cyber-resilience-und-data-act/
+bodyClass: bg-white h-full
+htmlClass: bg-white h-full
+---
+
+<x-main>
+  <block name="template">
+    <table class="w-full h-full font-sans">
+      <tr>
+        <td align="center" class="bg-white align-middle">
+          <table class="w-600 sm:w-full">
+            <!-- Header -->
+            <tr>
+              <td class="py-8 px-24 text-right sm:pb-12">
+                <p class="text-blue-700 text-sm font-sans leading-20"><a href="{{ page.eventDetailURL }}" class="text-blue-700 no-underline hover:underline">Im Browser anzeigen</a> • <a href="{{ page.eventsURL }}" class="text-blue-700 no-underline hover:underline">Alle Events anzeigen</a></p>
+              </td>
+            </tr>
+            <!-- Logo -->
+            <tr>
+              <td class="py-28 px-24 text-left2">
+                <a href="https://www.scs.ch" target="_blank" rel="noopener noreferrer">
+                  <img src="images/logo-scs.png" width="154" height="48" alt="Super Computing Systems" class="text-red-500 text-lg font-bold no-underline">
+                </a>
+              </td>
+            </tr>
+            <!-- Content  -->
+            <tr>
+              <td class="text-left p-24">
+                <h1 class="font-bold text-black text-xl leading-40 m-0">Danke für deine Anmeldung
+                </h1>
+              </td>
+            </tr>
+            <tr>
+              <td class="bg-white px-24 text-left">
+                <a href="https://www.scs.ch" target="_blank" rel="noopener noreferrer">
+                  <img src="images/hero-cra.jpg" width="100%" alt="{{ page.description }}" class="text-blue-700 text-lg font-bold no-underline">
+                </a>
+                <div class="leading-32">&zwnj;</div>
+                <p class="text-black text-base font-serif leading-26">Danke für deine Anmeldung zum SCS Tech-Event <b>Cyber Resilience und Data Act</b>. Wir freuen uns auf einen spannenden Event am Dienstag, 6. Mai 2025 ab 17.00 Uhr!</p>
+            </tr>
+            <!-- Button -->
+            <component src="src/components/button.html">
+              Zur Wegbeschreibung &rarr;
+            </component>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <!-- Programm -->
+    <table class="w-full h-full font-sans">
+      <tr>
+        <td align="center" class="bg-blue-100 align-middle">
+          <table class="w-600 sm:w-full">
+            <!-- Anreise -->
+            <tr>
+              <td class="text-left p-32 sm:p-24 sm:rounded-none">
+                <h3 class="font-bold text-black text-l leading-26 mt-16 ">Anfahrt mit offentlichen Verkehrsmittel</h3>
+                <ul class="mb-32 pl-24 font-serif">
+                  <li class="mb-8 pl-8 leading-26">Tram 4 ab Zürich Hauptbahnhof (Sihlquai oder Bahnhofquai) Richtung
+                    Bahnhof Altstetten bis Technopark (10 Min. Fahrzeit)</li>
+                  <li class="mb-8 pl-8 leading-26">Div. S-Bahnen ab Zürich Hauptbahnhof (Gleis 41/42 im Sous-sol) bis
+                    Bahnhof Hardbrücke (2 Min. Fahrzeit), 5 Min. Fussweg zum Technopark.</li>
+                  <li class="mb-8 pl-8 leading-26"><a class="text-black" href="">SBB Fahrplan zur SCS</a></li>
+                </ul>
+                <h3 class="font-bold text-black text-l leading-26 mt-16 ">Anfahrt privat</h3>
+                <ul class="mb-32 pl-24 font-serif">
+                  <li class="mb-8 pl-8 leading-26">Autobahnausfahrt Zürich (A1), Pfingstweidstrasse, einbiegen
+                    Technoparkstrasse in die Tiefgarage</li>
+                  <li class="mb-8 pl-8 leading-26">Gerne reservieren wir einen Besucherparkplatz für Sie.</li>
+                  <li class="mb-8 pl-8 leading-26">Routenplaner</li>
+                </ul>
+                <h3 class="font-bold text-black text-l leading-26 mt-16 ">Supercomputing Systems AG</h3>
+                <ul class="mb-32 pl-24 font-serif">
+                  <li class="mb-8 pl-8 leading-26">Technopark Zürich</li>
+                  <li class="mb-8 pl-8 leading-26">Trakt Edison, 5. Stock</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <!-- Programm -->
+    <table class="w-full h-full font-sans">
+      <tr>
+        <td align="center" class="bg-gray-800 align-middle">
+          <table class="w-600 sm:w-full">
+            <component src="src/components/footer.html"></component>
+        </td>
+      </tr>
+
+    </table>
+    </td>
+    </tr>
+    </table>
+  </block>
+</x-main>
