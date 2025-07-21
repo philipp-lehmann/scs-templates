@@ -4,7 +4,7 @@ HTML email templates for [SCS](https://www.scs.com/), built with [Tailwind CSS](
 
 
 
-## Previee
+## Preview
 ![Preview](/preview/Preview-Desktop.png)
 
 
