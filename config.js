@@ -8,11 +8,14 @@
 | has the fastest build time, since most transformations are disabled.
 |
 */
-
 /** @type {import('@maizzle/framework').Config} */
 export default {
   build: {
     content: ['src/templates/**/*.html'],
+    static: {
+      source: ['src/assets/images/**/*.*'],
+      destination: 'images',
+    }, 
     css: {
       inline: true,
       purge: true,
