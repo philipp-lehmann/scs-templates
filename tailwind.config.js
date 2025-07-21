@@ -106,8 +106,8 @@ module.exports = {
         full: '9999px',
       },
       fontFamily: {
-        sans: ['Arial', 'system-ui', '-apple-system', '"Segoe UI"', 'sans-serif'],
-        serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+        sans: ['Tw Cen MT Bold', 'Arial', 'system-ui', '-apple-system', '"Segoe UI"', 'sans-serif'],
+        serif: ['Cambria', 'Georgia', '"Times New Roman"', 'Times', 'serif'],
         mono: ['ui-monospace', 'Menlo', 'Consolas', 'monospace'],
       },
       fontSize: {

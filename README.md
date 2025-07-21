@@ -2,31 +2,39 @@
 
 HTML email templates for [SCS](https://www.scs.com/), built with [Tailwind CSS](https://tailwindcss.com/) in [Maizzle](https://maizzle.com).
 
+
+
+## Previee
+![Preview](/preview/Preview-Desktop.png)
+
+
+
 ## Installation
 
 First, make sure you have installed the [Maizzle CLI](https://maizzle.com/docs/installation/#install-the-cli-globally) globally:
 
-```sh
+
+
+```
 npm install -g @maizzle/cli
-```
-
-Then, scaffold a new project with this Starter:
-
-```sh
-maizzle new maizzle/starter-netlify-identity
-```
-
-Develop locally:
+npm install 
 
 ```
-maizzle serve
-```
 
-Build for production:
+For local development:
 
 ```
-maizzle build production
+npm run dev
 ```
+
+Build 
+
+```
+npm run build
+```
+
+
+
 
 ## Documentation
 
