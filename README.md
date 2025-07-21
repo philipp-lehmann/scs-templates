@@ -5,7 +5,7 @@ HTML email templates for [SCS](https://www.scs.com/), built with [Tailwind CSS](
 
 
 ## Preview
-![Preview](/preview/Preview-Desktop.png)
+![Preview](/preview/Fullsize-Desktop.png)
 
 
 
@@ -18,17 +18,14 @@ First, make sure you have installed the [Maizzle CLI](https://maizzle.com/docs/i
 ```
 npm install -g @maizzle/cli
 npm install 
-
 ```
 
 For local development:
-
 ```
 npm run dev
 ```
 
 Build 
-
 ```
 npm run build
 ```
